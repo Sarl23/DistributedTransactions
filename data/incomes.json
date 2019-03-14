@@ -2,26 +2,14 @@
   "incomes": [
     {
       "doc": "102234348",
-      "type": "cc",
-      "name": "Jose",
-      "surname": "Josus",
-      "birth": "1992-05-22",
       "income": 5050
     },
     {
       "doc": "10532183",
-      "type": "cc",
-      "name": "Pedro",
-      "surname": "Pedraza",
-      "birth": "1996-10-12",
       "income": 4040
     },
     {
       "doc": "134244971",
-      "type": "cc",
-      "name": "Maria",
-      "surname": "Martinez",
-      "birth": "1993-05-08",
       "income": 2040
     }
   ]
