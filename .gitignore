@@ -138,7 +138,7 @@ gen### Kotlin template
 nbproject/private/
 build/
 nbbuild/
-dist/
+prod/
 nbdist/
 .nb-gradle/
 ### macOS template
@@ -172,3 +172,4 @@ Temporary Items
 lib/kotlin*
 !lib/java*
 !lib/mysql*
+!prod
