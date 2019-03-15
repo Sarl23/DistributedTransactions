@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DistributedTransactions">
+    <output-path>$PROJECT_DIR$/prod</output-path>
+    <root id="archive" name="DistributedTransactions.war">
+      <element id="artifact" artifact-name="DistributedTransactions:war exploded" />
+      <element id="artifact" artifact-name="DistributedTransactions:ear exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="KotlinJavaRuntime" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

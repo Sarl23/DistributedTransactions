@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DistributedTransactions:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DistributedTransactions_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DistributedTransactions/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DistributedTransactions" />
+          <element id="jpa-descriptors" facet="DistributedTransactions/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="javax.servlet" />
+          <element id="library" level="project" name="mysql-connector" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DistributedTransactions/javaeeApplication/javaEEApplication" />
+      <element id="library" level="project" name="KotlinJavaRuntime" />
+    </root>
+  </artifact>
+</component>
