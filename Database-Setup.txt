@@ -1,0 +1,14 @@
+1. Editar el archivo `/etc/mysql/my.cnf`:
+2. Buscar y actualizar la línea, así:
+    bind-address = 0.0.0.0
+3. Acceder a la consola de mysql.
+4. Ejecutar los siguientes comandos de mysql:
+5. create user 'user'@'localhost' identified by 'password';
+6. create user 'user'@'%' identified by 'password';
+7. grant all on *.* to 'user'@'localhost' identified by 'password';
+8. grant all on *.* to 'user'@'%' identified by 'password';
+9. flush privileges;
+10. Reiniciar el servicio de mysql
+    sudo service mysql restart
+11. Exponer la base de datos usando ngrok:
+    ./ngrok tcp 3306

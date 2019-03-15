@@ -1,0 +1,11 @@
+1. Iniciar servidor WildFly JBoss:
+    sudo sh /opt/wildfly/bin/standalone.sh
+2. Acceder al CLI de WildFly JBoss:
+    cd /opt/wildfly/bin/
+    ./jboss-cli.sh
+3. En el CLI ejecutar el comando:
+    connect
+4. En el CLI ejecutar el comando:
+    deploy ~/DistributedTransactions.war
+5. Desde la carpeta principal ejecutar:
+    ./ngrok http 8080
