@@ -10,5 +10,6 @@
 9. flush privileges;
 10. Reiniciar el servicio de mysql
     sudo service mysql restart
-11. Exponer la base de datos usando ngrok:
+11. Importar y/o ejecutar el archivo db.sql de la carpeta data
+12. Exponer la base de datos usando ngrok:
     ./ngrok tcp 3306
