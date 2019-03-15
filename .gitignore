@@ -172,4 +172,4 @@ Temporary Items
 lib/kotlin*
 !lib/java*
 !lib/mysql*
-!prod
+!prod/*
