@@ -11,3 +11,9 @@
 .hero-foot {
     margin-bottom: 1.6rem !important;
 }
+
+a:hover,
+a:focus {
+    color: #3273dc;
+    text-decoration: underline;
+}
