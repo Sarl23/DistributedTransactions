@@ -177,4 +177,5 @@ kotlin-libs
 !.idea/artifacts/*
 !.idea/libraries/*
 .idea/codeStyles
+.idea/inspectionProfiles
 .idea/*.xml
