@@ -169,7 +169,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-lib/kotlin*
-!lib/java*
-!lib/mysql*
+!lib
+!lib/*
+kotlin-libs
+!prod
 !prod/*
