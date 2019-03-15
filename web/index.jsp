@@ -65,6 +65,12 @@
                     </div>
                 </div>
             </div>
+            <div class="hero-foot">
+                <div class="has-text-centered">
+                    <p>This project was built by Sergio Rojas and
+                        <a href="https://jahir.xyz/" target="_blank">Jahir Fiquitiva</a></p>
+                </div>
+            </div>
         </section>
         <script src="assets/js/main.js"></script>
     </body>
