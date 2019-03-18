@@ -67,7 +67,8 @@
             </div>
             <div class="hero-foot">
                 <div class="has-text-centered">
-                    <p>This project was built by Sergio Rojas and
+                    <p>This project was built by
+                        <a href="http://github.com/sarl23" target="_blank">Sergio Rojas</a> and
                         <a href="https://jahir.xyz/" target="_blank">Jahir Fiquitiva</a></p>
                 </div>
             </div>

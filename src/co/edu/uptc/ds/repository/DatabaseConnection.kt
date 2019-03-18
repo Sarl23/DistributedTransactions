@@ -25,7 +25,7 @@ class DatabaseConnection {
   
   companion object {
     private const val REMOTE_SQL_URL = "0.tcp.ngrok.io" // "localhost"
-    private const val REMOTE_SQL_PORT = "19244" // "3306"
+    private const val REMOTE_SQL_PORT = "12271" // "3306"
     private const val DATABASE = "person_dist" // "distri"
     private const val USER = "Distri" // "root"
     private const val PASSWORD = "Distri-4321" // "secret"
